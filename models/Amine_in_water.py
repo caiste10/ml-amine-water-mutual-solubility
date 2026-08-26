@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from pathlib import Path
 from collections import Counter
 from catboost import CatBoostRegressor
 from sklearn.model_selection import train_test_split, KFold, cross_val_score
@@ -13,7 +14,9 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # ============================================================
 # 1. DATA
 # ============================================================
-Data = pd.read_excel(r"C:\Users\Stefano\Desktop\Final dataset_modeling_cleaned - Copia.xlsx")
+BASE_DIR = Path(__file__).resolve().parent
+DATA_PATH = BASE_DIR.parent / "datasets" / "Amine_in_water_processed.xlsx"
+Data = pd.read_excel(DATA_PATH)
 X0 = Data.iloc[:, 0:9].values
 Y0 = Data.iloc[:, 9].values
 labels = Data.iloc[:, -1].values
