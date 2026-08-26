@@ -15,7 +15,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # 1. DATA
 # ============================================================
 BASE_DIR = Path(__file__).resolve().parent
-DATA_PATH = BASE_DIR.parent / "datasets" / "Amine_in_water_processed.xlsx"
+DATA_PATH = BASE_DIR.parent / "datasets" / "amine_in_water_processed.xlsx"
 Data = pd.read_excel(DATA_PATH)
 X0 = Data.iloc[:, 0:9].values
 Y0 = Data.iloc[:, 9].values
