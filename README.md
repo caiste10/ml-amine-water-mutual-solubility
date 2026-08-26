@@ -30,7 +30,9 @@ The script `models/Amine_in_water.py` reproduces the final optimized stacking mo
 
 ## Software Requirements and Usage
 The ML models provided in this repository were developed in Python.
+
 To run the scripts, users should have Python installed together with the following packages: `numpy`, `pandas`, `scikit-learn`, `catboost`, `openpyxl`.
+
 The required packages can be installed using:
 ```bash
 pip install numpy pandas scikit-learn catboost openpyxl
