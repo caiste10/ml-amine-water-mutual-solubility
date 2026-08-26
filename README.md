@@ -81,9 +81,15 @@ Any conditions specifically applicable to the datasets should be considered sepa
 
 ## Contact
 For questions regarding the datasets, methodology, or ML models, please contact:
+
 **Dr. Stefano Cairone**
+
 Sanitary Environmental Engineering Division
+
 Department of Civil Engineering
+
 University of Salerno
+
 Italy
+
 `scairone@unisa.it`
