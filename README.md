@@ -59,8 +59,11 @@ Minor differences in numerical results may occur depending on the Python version
 
 ## Associated Publication
 This repository supports the following scientific study: 
+
 **Explainable machine learning for liquid–liquid equilibrium modeling of amine–water systems in temperature swing solvent extraction desalination**
+
 Stefano Cairone, Tiziano Zarra, Vincenzo Belgiorno, Ngai Yin Yip and Vincenzo Naddeo
+
 *[Journal name]*, [Year].
 DOI: [DOI]
 The bibliographic information will be updated after publication.
