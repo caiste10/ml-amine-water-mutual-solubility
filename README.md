@@ -73,7 +73,7 @@ If you use the datasets or code provided in this repository, please cite the ass
 A recommended citation will be added once the article is published.
 
 ## Data and Code Availability
-The processed datasets and the code required to reproduce the final optimized stacking models are publicly available in this repository. Additional scripts used during model development, hyperparameter optimization, and ancillary analyses are available from the corresponding author upon reasonable request.
+The processed datasets and the code required to reproduce the final optimized stacking models are publicly available in this repository. Additional scripts used during model development, hyperparameter optimization, and additional analyses are available from the corresponding author upon reasonable request.
 
 ## License
 The source code in this repository is distributed under the terms specified in the LICENSE file.
