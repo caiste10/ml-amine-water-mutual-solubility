@@ -1,5 +1,5 @@
 # Amine–Water Mutual Solubility Prediction Using Machine Learning
-This repository contains the processed datasets and optimized machine learning stacking models developed for the prediction of mutual solubility in amine–water systems.
+This repository contains the processed datasets and optimized machine learning models developed for the prediction of mutual solubility in amine–water systems.
 The repository is intended to support the reproducibility and transparency of the associated scientific study by providing the datasets used for model development and the final optimized models.
 
 ## Repository Contents
@@ -26,7 +26,7 @@ Two optimized machine learning models are provided.
 ### Model 1: Water-in-amine solubility
 The script `models/Water_in_amine.py` reproduces the final optimized stacking model developed for the `water_in_amine_processed.xlsx` dataset. The script includes the final model architecture and the hyperparameters selected through the optimization procedure described in the associated manuscript.
 ### Model 2: Amine-in-water solubility
-The script `models/Amine_in_water.py` reproduces the final optimized stacking model developed for the `amine_in_water_processed.xlsx` dataset. The script includes the final model architecture and the hyperparameters selected through the optimization procedure described in the associated manuscript.
+The script `models/Amine_in_water.py` reproduces the final optimized model developed for the `amine_in_water_processed.xlsx` dataset. The script includes the final model architecture and the hyperparameters selected through the optimization procedure described in the associated manuscript.
 
 ## Software Requirements and Usage
 The ML models provided in this repository were developed in Python.
@@ -53,7 +53,7 @@ python models/Water_in_amine.py
 No modification of the dataset paths is required as long as the original repository folder structure is preserved. 
 
 ## Reproducibility
-The purpose of this repository is to provide the processed datasets and final optimized stacking models used in the associated scientific study.
+The purpose of this repository is to provide the processed datasets and final optimized models used in the associated scientific study.
 A fixed random seed (`random_state = 42`) is used where applicable to improve reproducibility of the train/test split, cross-validation procedure, and machine learning models.
 Minor differences in numerical results may occur depending on the Python version, operating system, and installed package versions.
 
@@ -73,7 +73,7 @@ If you use the datasets or code provided in this repository, please cite the ass
 A recommended citation will be added once the article is published.
 
 ## Data and Code Availability
-The processed datasets and the code required to reproduce the final optimized stacking models are publicly available in this repository. Additional scripts used during model development, hyperparameter optimization, and additional analyses are available from the corresponding author upon reasonable request.
+The processed datasets and the code required to reproduce the final optimized models are publicly available in this repository. Additional scripts used during model development, hyperparameter optimization, and additional analyses are available from the corresponding author upon reasonable request.
 
 ## License
 The source code in this repository is distributed under the terms specified in the LICENSE file.
